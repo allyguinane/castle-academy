@@ -134,7 +134,6 @@ header {
   width: 100%;
   padding: 15px;
   background: #FFFFFF;
-  position: absolute;
   float: left;
   margin-left:0;
   margin-right:0;
@@ -370,6 +369,7 @@ nav#nav_toggle_menu ul {
   margin-bottom: 50px;
   border-bottom: 1px solid #90C184;
   padding: 0px 0 20px;
+  margin: 0 20px 0 20px 0;
 }
 
 
@@ -434,7 +434,7 @@ nav#nav_toggle_menu ul {
   padding: 20px 20px 0px 20px;
 }
 #employment a {
-  text-decoration: none;
+  color: #EE5323;
   webkit-text-decoration-color: #EE5323;
   font-style: bold;
   font-family: Montserrat;
@@ -475,7 +475,7 @@ nav#nav_toggle_menu ul {
    }
  }
 
-input {
+input[type=text] {
     display: block;
     width: 300px;
     max-height: 40px;
@@ -518,6 +518,7 @@ input {
     box-sizing: border-box;
     padding: 0 10px 0;
     display: inline;
+    width: 20px;
 }
 
 
